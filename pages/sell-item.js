@@ -1,6 +1,6 @@
 import { Form } from "@web3uikit/core"
 import { useNotification } from "@web3uikit/core"
-import { useMoralis } from "react-moralis"
+import { useMoralis, useWeb3Contract } from "react-moralis"
 import networkMapping from '../constants/networkMapping.json'
 
 export default function SellItem() {
